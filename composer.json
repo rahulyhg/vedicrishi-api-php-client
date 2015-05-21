@@ -1,0 +1,29 @@
+{
+    "name": "VedicRishiAstroAPI",
+    "type": "library",
+    "description": "Start creating horoscopes and reports on your websites and mobile applications within minutes using Vedic Rishi Astro APIs. These APIs provide detailed vedic or Indian astrology calculations along with various prediction reports.",
+    "keywords": ["Advanced Astrology and Horoscope","API","SDK"],
+    "homepage": "https://www.vedicrishiastro.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chandan @ Vedic Rishi Astro",
+            "email": "mail@vedicrishiastro.com",
+            "homepage": "https://github.com/vedicrishiastro",
+            "role": "Author"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/apimatic/unirest-php"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "unirest-php": "dev-master"
+    }
+}
