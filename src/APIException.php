@@ -1,12 +1,11 @@
 <?php
-namespace AdvancedAstrologyAndHoroscopeLib;
 
 use Exception;
 
 class APIException extends Exception {
     //private value store
     private $responseCode;
-    
+
     /*
      * The HTTP response code from the API request
      * @param string $reason the reason for raising an exception
